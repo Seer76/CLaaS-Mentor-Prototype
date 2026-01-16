@@ -44,26 +44,7 @@
                                         class="capitalize font-bold {{ $plan->status === 'approved' ? 'text-green-600' : 'text-yellow-600' }}">{{ $plan->status }}</span>
                                 </p>
                             </div>
-                            <a href="{{ route('learner.chat') }}"
-                                class="bg-midnight-blue hover:bg-midnight-blue-600 text-white px-4 py-2 rounded-md text-sm font-semibold">
-                                Chat with Mentor
-                            </a>
-                            <a href="{{ route('learner.scorecard') }}"
-                                class="bg-green-gold hover:bg-green-gold-600 text-white px-4 py-2 rounded-md text-sm font-semibold">
-                                View Scorecard
-                            </a>
-                            <a href="{{ route('learner.skills-passport') }}"
-                                class="bg-gray-600 hover:bg-gray-500 text-white px-4 py-2 rounded-md text-sm font-semibold">
-                                Skills Passport
-                            </a>
-                            <a href="{{ route('learner.support') }}"
-                                class="bg-gray-700 hover:bg-gray-600 text-white px-4 py-2 rounded-md text-sm font-semibold">
-                                Support
-                            </a>
-                            <a href="{{ route('forum.index') }}"
-                                class="bg-gray-600 hover:bg-gray-500 text-white px-4 py-2 rounded-md text-sm font-semibold">
-                                Forum
-                            </a>
+
                         </div>
 
                         {{-- Progress Bar --}}
